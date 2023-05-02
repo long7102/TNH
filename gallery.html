@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TNH's Gallery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/style3.css">  
+    <link rel="shortcut icon" type="image" href="./assets/img/avatar/avatar2.2.png" style="border-radius: 30px;">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            font-family: "Raleway", Arial, sans-serif
+        }
+
+        .row img {
+            margin-bottom: -8px
+        }
+        /* moblie */
+        @media (min-width: 46.25em) and (max-width: 64em) {
+            .row {
+                display: initial;
+            }
+            .half{
+                    width: 100%;
+                }
+            }
+            .image{
+                width: 250px;
+                height: 250px;
+            }
+            form{
+                width: 85%;
+            }
+            /* tablet */
+            @media(max-width: 46.1875em) {
+                .row {
+                    margin-top: 20px;
+                    display: initial;
+                    width: 100%;
+                }
+                .half{
+                    width: 100%;
+                }
+            }
+            .half .img:hover{
+                opacity: 0.9;
+                transition: 0.5s;
+            }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="content" style="max-width:1500px">
+
+        <!-- Header -->
+        <header class="container xlarge padding-24">
+            <a href="https://www.instagram.com/trnnghanh/" target="_blank" class=" left button white">TNH'S ART</a>
+            <a href="#about" class=" right button white">About</a>
+        </header>
+
+        <!-- Photo Grid -->
+        <div class="row light-grey">
+            <div class="half">
+                <div class="img"><img src="./assets/img/d.jpg" style="width:100%;"></div>
+                <div class="img"><img src="./assets/img/i.jpg" style="width:100%;"></div>
+                <div class="img"><img src="./assets/img/z.jpg" style="width:100%;"></div>
+                <div class="img"><img src="./assets/img/n.jpg" style="width:100%;"></div>
+                <div class="img"><img src="./assets/img/k.jpg" style="width:100%;"></div>
+                <video poster="./assets/img/323589423_690208649360457_3537744659479818002_n.jpg" style="width: 99.9999%;" src="./assets/img/4105036364675612066.mp4" controls type="video/mp4"></video>
+            </div>
+
+            <div class="half">
+                <div class="img"><img src="./assets/img/e.jpg" style="width:100%;"></div>
+                <div class="img"><img src="./assets/img/y.jpg" style="width:100%;"></div>
+                <div class="img"><img src="./assets/img/v.jpg" style="width:100%;"></div>
+                <div class="img"><img src="./assets/img/r.jpg" style="width:100%;"></div>
+                <div class="img"><img src="./assets/img/p.jpg" style="width:100%;"></div>
+
+            </div>
+
+            
+        </div >
+
+            
+        <!-- End Page Content -->
+    </div>
+
+    <!-- Footer / About Section -->
+    <footer class="light-grey padding-64 center" id="about">
+        <h2>About TNH</h2>
+        <img src=".//assets/img/avatar/avatar4.jpg" class="image padding-32" width="350" height="350">
+        <form style="margin:auto;width:80%;line-height: 25px;text-align: center;" action="/action_page.php"
+            target="_blank">
+            <p>Ngoc Hanh - a beautiful, talented and highly spirited girl. She is a successful founder of a high-tech business, with the ability to use multiple languages and talents in communication and presentation. Additionally, she is a wonderful friend that everyone loves and cares about social activities, volunteering, and art.
+                <br>
+                After graduating from university, Ngoc Hanh decided to establish an art business with the mission of providing advanced art solutions to help improve everyone's lives and create sustainable value for society. Thanks to her humanitarianism, optimism, love of life, innate talent, and friendliness, she has brought her business to a pioneering position in the field of art in Vietnam.
+                <br>
+                I believe that with her excellence and determination, Ngoc Hanh will continue to bring many things that make a difference to her life and to society.</p>
+            <p class="large text-pink">Do not hesitate to contact her today :)</p>
+            <div class="section">
+                <label><b>Name</b></label>
+                <input class="input border" type="text" required name="Name">
+            </div>
+            <div class="section">
+                <label><b>Email</b></label>
+                <input class="input border" type="text" required name="Email">
+            </div>
+            <div class="section">
+                <label><b>Message</b></label>
+                <input class="input border" required name="Message">
+            </div>
+            <button type="submit" class="button block dark-grey large">Send</button>
+        </form>
+        <br>
+        <p>Powered by <a href="https://www.instagram.com/sadthuvotinhvl/" target="_blank" class="hover-text-green">Long đẹp trai</a></p>
+    </footer>
+
+</body>
+
+</html>

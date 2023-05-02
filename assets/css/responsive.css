@@ -1,0 +1,205 @@
+/* pc */
+@media (min-width: 64em) {
+    #header .menu-btn-mobile {
+        display: none;
+    }
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 64em) {
+    #header .search-btn .search-icon {
+        display: none;
+    }
+    
+#content .author-content img:hover{
+    transform: scale(1.01);
+    transition: all ease-in-out 0.7s;
+}
+    #content .social-section i {
+        padding: 0px 8px;
+    }
+
+    .slide-card #slide-text {
+        display: none;
+    }
+    .modal-container{
+        display: initial;
+        min-height: 50%;
+    }
+    .modal-container .modal-img {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .modal-container .modal-body{
+        width: 100%;
+    }
+    .ticket li:last-child .quantity2 {
+        margin-top: -21px;
+        margin-left: 5px;
+    }
+}
+
+/* mobile */
+@media(max-width: 46.1875em) {
+    .ml-0 {
+        margin-left: 0px;
+    }
+
+    .s-col-full {
+        width: 100%;
+    }
+
+    #nav .menu-btn-mobile {
+        display: block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background: #333;
+
+    }
+
+    #nav .subnav a {
+        color: whitesmoke;
+        padding: 7px 47px;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #header .search-btn .search-icon {
+        display: none;
+    }
+
+    .Cssgal {
+        height: 300px;
+
+    }
+
+    .slide-card #slide-text {
+        display: none;
+    }
+
+    .CSSgal .prevNext a {
+        width: 50px;
+        height: 50px;
+    }
+
+    #content .author-content {
+        width: 100%;
+    }
+
+    #content .about-text {
+        font-size: 16px;
+        margin-top: 25px;
+        text-align: justify;
+        line-height: 1.5;
+        padding: 0px 15px;
+        margin-bottom: 25px;
+    }
+
+    #content .author-list {
+        margin-left: auto;
+        margin-right: auto;
+        display: initial;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #content .author-image {
+        width: 70%;
+    }
+
+    .ticket li:last-child {
+        line-height: 2;
+    }
+
+    .ticket li:last-child .quantity2 {
+        display: none;
+    }
+
+    #content .place-list {
+        display: initial;
+        margin-top: 17px;
+    }
+
+    #content .place-img,
+    #content .place-body {
+        width: 71%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #content .contact-section .contact-body {
+        display: initial;
+    }
+
+    #content .contact-form {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #content .contact-section .contact-form-top {
+        display: initial;
+    }
+
+    #content .contact-section .contact-form-top input {
+        padding-left: 5px;
+        margin-bottom: 15px;
+    }
+
+    #content .contact-section .contact-info-bottom input {
+        padding-left: 5px;
+        margin-bottom: 15px;
+    }
+
+    #content .contact-section p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    #content .social-section i {
+        padding: 0px 8px;
+    }
+
+    .buy {
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 10px 20px;
+        display: flex;
+        margin-top: 12px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .button-contact {
+        width: 100%;
+    }
+
+    .modal-container {
+        display: none;
+    }
+}
