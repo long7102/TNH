@@ -54,7 +54,7 @@
 <body>
 
     <!-- !PAGE CONTENT! -->
-    <div class="content" style="max-width:1500px">
+    <div class="content" style="max-width:100%">
 
         <!-- Header -->
         <header class="container xlarge padding-24">
@@ -93,7 +93,7 @@
     <footer class="light-grey padding-64 center" id="about">
         <h2>About TNH</h2>
         <img src=".//assets/img/avatar/avatar4.jpg" class="image padding-32" width="350" height="350">
-        <form style="margin:auto;width:80%;line-height: 25px;text-align: center;" action="/action_page.php"
+        <form style="margin:auto;width:80%;line-height: 25px;text-align: center;" action="https://www.facebook.com/sadthuvotinh/"
             target="_blank">
             <p>Ngoc Hanh - a beautiful, talented and highly spirited girl. She is a successful founder of a high-tech business, with the ability to use multiple languages and talents in communication and presentation. Additionally, she is a wonderful friend that everyone loves and cares about social activities, volunteering, and art.
                 <br>
@@ -113,8 +113,10 @@
                 <label><b>Message</b></label>
                 <input class="input border" required name="Message">
             </div>
+
             <button type="submit" class="button block dark-grey large">Send</button>
             
+
         </form>
         <div style="width: 80%; margin: auto; margin-top: 25px; ">
             <button class="button block dark-grey large"><a href="index.html" style="text-decoration: none; color: white ">Go to Landing Page </a> </button>
@@ -122,7 +124,13 @@
         <br>
         <p>Powered by <a href="https://www.instagram.com/sadthuvotinhvl/" target="_blank" class="hover-text-green">Long đẹp trai</a></p>
     </footer>
-
+    <script>
+        const button = document.querySelector('.button-send');
+        function open(){
+        alert('Nhắn tin thẳng cho mình đi chứ ko chơi kiểu lấy ý kiến như này đâu Ngọc Hạnh à huhu:(')
+    }
+        button.addEventListener('click',open)
+    </script>
 </body>
 
 </html>
